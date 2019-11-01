@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="spring boot. the application starts and shows html">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/NaumenJavaProjectApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/EnterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/RegistrarionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForEnter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForTasks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/c20502ff68be3f356294dbc98640a3c9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/e6249665be6990670d199c71029b0fe2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/gg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/pancil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/tt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/enter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/greeting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/NaumenJavaProjectApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/EnterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrarionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForEnter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForTasks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/c20502ff68be3f356294dbc98640a3c9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/e6249665be6990670d199c71029b0fe2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/gg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/pancil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/tt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/enter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TodoServis/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TodoServis/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,8 +231,16 @@
       <workItem from="1571058558975" duration="652000" />
       <workItem from="1572491085755" duration="1913000" />
       <workItem from="1572526761625" duration="469000" />
-      <workItem from="1572528085276" duration="1555000" />
+      <workItem from="1572528085276" duration="1817000" />
     </task>
+    <task id="LOCAL-00001" summary="spring boot. the application starts and shows html 2">
+      <created>1572572353814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572572353814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +261,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring boot. the application starts and shows html" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring boot. the application starts and shows html" />
+    <MESSAGE value="spring boot. the application starts and shows html 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot. the application starts and shows html 2" />
   </component>
 </project>
