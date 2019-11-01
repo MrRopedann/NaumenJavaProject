@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="" />
+    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="spring boot. the application starts and shows html">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/NaumenJavaProjectApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/ServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/EnterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/RegistrarionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForEnter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForTasks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/c20502ff68be3f356294dbc98640a3c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/e6249665be6990670d199c71029b0fe2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/gg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/pancil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/images/tt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/enter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/NaumenJavaProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/EnterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrarionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForEnter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForTasks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/c20502ff68be3f356294dbc98640a3c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/e6249665be6990670d199c71029b0fe2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/gg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/pancil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/images/tt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/enter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TodoServis/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TodoServis/Main.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +78,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ToDo">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -40,6 +99,21 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NaumenJavaProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ToDo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ToDo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -51,17 +125,39 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1S4Qd2IBBOPW2UO9IYtVa0nCymB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gradleGL/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java" />
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,7 +171,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.NaumenJavaProject [bootRun]">
+    <configuration name="NaumenJavaProject [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NaumenJavaProject [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="NaumenJavaProject [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -95,8 +229,44 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ToDo [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ToDo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NaumenJavaProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="NaumenJavaProject.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="njp.NaumenJavaProject.NaumenJavaProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NaumenJavaProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="todoapp4.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="NaumenJavaProject.NaumenJavaProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NaumenJavaProject [clean]" />
+        <item itemvalue="Gradle.ToDo [clean]" />
+        <item itemvalue="Gradle.NaumenJavaProject [bootRun]" />
         <item itemvalue="Gradle.NaumenJavaProject [run]" />
       </list>
     </recent_temporary>
@@ -111,11 +281,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570820472490</updated>
-      <workItem from="1570820478219" duration="1000000" />
+      <workItem from="1570820478219" duration="2575000" />
+      <workItem from="1570823249080" duration="59000" />
+      <workItem from="1570890058721" duration="4426000" />
+      <workItem from="1571058558975" duration="652000" />
+      <workItem from="1572491085755" duration="1913000" />
+      <workItem from="1572526761625" duration="469000" />
+      <workItem from="1572528085276" duration="1555000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring boot. the application starts and shows html" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot. the application starts and shows html" />
   </component>
 </project>

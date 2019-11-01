@@ -1,20 +1,31 @@
 plugins {
+    id 'org.springframework.boot' version '2.2.1.BUILD-SNAPSHOT'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
     id 'java'
-    id 'application'
-
+    id 'war'
 }
-mainClassName = "TodoServis.Main"
-group 'NJP'
-version '1.0-SNAPSHOT'
 
-
-sourceCompatibility = 10
+group = 'njp'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '10'
 
 repositories {
     mavenCentral()
+    maven { url 'https://repo.spring.io/milestone' }
+    maven { url 'https://repo.spring.io/snapshot' }
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    //compile: //сюда подключать библиотеки от которых зависит компиляция, образец выше там ге тест
+
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
 }
+
+test {
+    useJUnitPlatform()
+}
+
