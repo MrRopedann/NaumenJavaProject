@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="" />
+    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greetingpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/RegistrarionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/enter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/greeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrarionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/enter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -49,15 +94,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ToDo" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ToDo" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -68,8 +104,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,6 +136,7 @@
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources\templates" />
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
     </key>
   </component>
@@ -208,9 +245,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NaumenJavaProject [bootRun]" />
         <item itemvalue="Gradle.NaumenJavaProject [clean]" />
         <item itemvalue="Gradle.ToDo [clean]" />
-        <item itemvalue="Gradle.NaumenJavaProject [bootRun]" />
         <item itemvalue="Gradle.NaumenJavaProject [run]" />
       </list>
     </recent_temporary>
@@ -231,7 +268,15 @@
       <workItem from="1571058558975" duration="652000" />
       <workItem from="1572491085755" duration="1913000" />
       <workItem from="1572526761625" duration="469000" />
-      <workItem from="1572528085276" duration="1817000" />
+      <workItem from="1572528085276" duration="2435000" />
+      <workItem from="1572573235516" duration="576000" />
+      <workItem from="1572611611556" duration="1478000" />
+      <workItem from="1572614431505" duration="5225000" />
+      <workItem from="1572640465187" duration="6527000" />
+      <workItem from="1572663992056" duration="1068000" />
+      <workItem from="1572666546060" duration="997000" />
+      <workItem from="1572802751213" duration="3634000" />
+      <workItem from="1572853304213" duration="13731000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot. the application starts and shows html 2">
       <created>1572572353814</created>

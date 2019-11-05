@@ -1,7 +1,9 @@
-<!DOCTYPE HTML>
-<html lang="en">
 
-<head>
+<!DOCTYPE HTML>
+
+
+<head xmlns:form="http://www.w3.org/1999/xhtml">
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/styleForEnter.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
@@ -27,13 +29,22 @@
     <div class="intro">
         <div class="info">
 
-            <input class="email " type="email" placeholder="Введите электронную почту..." id="em" maxlength="30">
 
-            <input class="login " type="text" placeholder="Введите логин..." id="login" maxlength="30">
+           <form:form method="post" modelAttribute="registrationForm"  lang="en" name="registration"  action="/registration">
 
-            <input class="password" type="password" placeholder="Введите пароль..." id="pass" maxlength="30">
 
-            <input class="botton" type="button" value="Регистрация" id="btn"><br><br>
+             Email   <input path="email" class="email " type="email" placeholder="Введите электронную почту..."   id="em" maxlength="30"/>
+
+                <input path="login" class="login " type="text" placeholder="Введите логин..."  id="login" maxlength="30">
+
+                <input path="password" class="password" type="password" placeholder="Введите пароль..."  id="pass" maxlength="30">
+
+                <input class="botton" type="submit" value="Регистрация"  id="btn"><br><br>
+
+
+            </form:form>
+
+
 
         </div>
     </div>

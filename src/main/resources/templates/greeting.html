@@ -1,0 +1,29 @@
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Show message</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form method="post" modelAttribute="Greeting"  lang="en" name="email"  action="/greeting-post">
+
+
+    <input path="email" class="email " type="email" placeholder="Введите электронную почту..." name="email"  id="email" maxlength="30"/>
+
+    <input class="botton" type="submit" value="Регистрация"  id="btn"><br><br>
+
+
+</form>
+
+<h1>Result</h1>
+
+
+<!--/*@thymesVar id="email" type="njp.NaumenJavaProject.forms.Greeting"*/-->
+<p th:text="'Name: ' + ${email}"></p>
+
+
+
+
+</body>
+</html>
