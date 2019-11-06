@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/RegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greetingpost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/RegistrarionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/enter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/error/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/greeting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrarionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/enter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/enter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +97,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,12 +109,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java" />
-      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources\templates" />
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\utils" />
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\servises" />
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\models" />
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\dao" />
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
     </key>
   </component>
@@ -277,6 +261,7 @@
       <workItem from="1572666546060" duration="997000" />
       <workItem from="1572802751213" duration="3634000" />
       <workItem from="1572853304213" duration="13731000" />
+      <workItem from="1572998331290" duration="2563000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot. the application starts and shows html 2">
       <created>1572572353814</created>
