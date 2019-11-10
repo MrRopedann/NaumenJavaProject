@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #333;
+    
 }
 
 .intro {
@@ -40,6 +41,7 @@ body {
 }
 
 .logo {
+    display: flex;
     font-size: 40px;
     font-weight: 900;
     color: black;
