@@ -43,6 +43,7 @@ body {
 }
 
 .logo {
+    display: flex;
     font-size: 40px;
     font-weight: 900;
     color: black;
@@ -74,7 +75,7 @@ body {
     position: fixed;
     background-color: rgba(203, 203, 203, 0.93);
     height: 100vh;
-    margin-top: 6%;
+    margin-top: 7%;
 }
 .textMenu{
     margin-left: 5%;
