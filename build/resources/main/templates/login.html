@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/styleForEnter.css">
+   <!-- <link rel="stylesheet" href="assets/css/styleForEnter.css">  -->
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <title>Todo</title>
 </head>
@@ -17,21 +17,26 @@
 
         <div>
             <a class="nav" href="/help">Как это работает</a>
-            <a class="nav" href="/enter">Вход</a>
+            <a class="nav" href="/login">Вход</a>
             <a class="nav" href="/registration">Регистрация</a>
         </div>
 
+    </div>
+    <div th:if="${param.error}">
+        Invalid username and password.
+    </div>
+    <div th:if="${param.logout}">
+        You have been logged out.
     </div>
 
 
     <div class="intro">
         <div class="info">
-
-            <input class="login " type="text" placeholder="Введите логин..." id="login" maxlength="30">
-
-            <input class="password" type="password" placeholder="Введите пароль..." id="pass" maxlength="30">
-
-            <input class="botton" type="button" value="Войти" id="btn"><br><br>
+            <form th:action="@{/login}" method="post">
+                <div><label> User Name : <input type="text" name="username"/> </label></div>
+                <div><label> Password: <input type="password" name="password"/> </label></div>
+                <div><input type="submit" value="Sign In"/></div>
+            </form>
 
             <label class="lab" for="reg">Нет аккаунта?</label>
 

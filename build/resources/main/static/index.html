@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">
@@ -18,9 +18,12 @@
         </div>
 
         <div>
-            <a class="nav" href="/greeting">Как это работает</a>
-            <a class="nav" href="/enter">Вход</a>
+            <a class="nav" href="/help">Как это работает</a>
+            <a class="nav" href="/login">Вход</a>
             <a class="nav" href="/registration">Регистрация</a>
+            <form th:action="@{/logout}" method="post">
+                <input type="submit" value="Sign Out"/>
+            </form>
         </div>
 
     </div>
@@ -28,7 +31,10 @@
 
     <div class="tasks">
 
-        <input type="button" class="addTask" value="Добавить задачу">
+
+        <form>
+            <input type="button" value="Добавить задачу" onClick='location.href="/newRecord"'>
+        </form>
 
         <div class="blocks">
             <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t1" name="checkbox">
@@ -112,7 +118,7 @@
                 <label for="date2">по</label>
                 <input type="date" class="formDate" id="date2">
             </div>
-            <a class="men" href="#">Корзина</a>
+            <a class="men" href="/basket">Корзина</a>
         </div>
     </div>
 

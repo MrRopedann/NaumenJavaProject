@@ -14,6 +14,9 @@ public class UserDao {
     public Users findById(int id) {
         return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(Users.class, id);
     }
+    public Users findByLogin(String login) {
+        return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(Users.class, login);
+    }
 
     public void save(Users users) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
@@ -40,4 +43,7 @@ public class UserDao {
     }
 
 
+    public Users findByEmail(String email) {
+        return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(Users.class, email);
+    }
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Hello World!</title>
+</head>
+<body>
+<h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+
+<form method="POST" modelAttribute="RecordForm"   lang="en" name="RecordForm"  action="/newRecord">
+
+    <input path="note" class="note"       type="text"     placeholder="Что вы хотите сделать"
+           name="note" id="note" maxlength="10000">
+
+    <input path="date" class="date"       type="date"     placeholder="время выполнения"
+           name= "date" id="date" >
+
+
+    <input class="button" type="submit" value="Создать задачу"  id="btn"><br><br>
+
+</form>
+
+
+
+
+
+</body>
+</html>

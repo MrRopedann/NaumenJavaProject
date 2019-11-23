@@ -43,12 +43,16 @@ body {
 }
 
 .logo {
+    display: flex;
     font-size: 40px;
     font-weight: 900;
     color: black;
 }
 .task{
     margin: 1.5%;
+}
+.selection{
+    margin: 1.8%;
 }
 .tasks{
     margin-top: 6%;
@@ -60,7 +64,7 @@ body {
 .lab{
     background-color: rgb(255, 255, 148);
     padding: 1.5%;
-    min-width: 500px;
+    min-width: 600px;
 }
 .blocks{
     display: flex;
@@ -71,7 +75,7 @@ body {
     position: fixed;
     background-color: rgba(203, 203, 203, 0.93);
     height: 100vh;
-    margin-top: 6%;
+    margin-top: 7%;
 }
 .textMenu{
     margin-left: 5%;
@@ -89,12 +93,13 @@ body {
 .formDate{
     float: right;
 }
-.addTask{
-    max-width: 30%;
+.buttonForAction{
+    max-width: 25%;
+    width: auto;
     font-size: 100%;
     padding: 2%;
     margin-bottom: 3%;
-    margin-left: 6%;
+    margin-left: 2%;
     color: black;
     font-weight: 500;
     background-color: white;
@@ -104,4 +109,7 @@ body {
     background-color:  rgb(255, 255, 190);
 }
 
+.bottons{
+    position: relative;
+}
 

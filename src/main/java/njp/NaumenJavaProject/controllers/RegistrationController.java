@@ -2,69 +2,44 @@ package njp.NaumenJavaProject.controllers;
 
 
 import njp.NaumenJavaProject.forms.RegistrationForm;
+import njp.NaumenJavaProject.models.Role;
+import njp.NaumenJavaProject.models.Users;
+import njp.NaumenJavaProject.servises.UsersServices;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.UnsupportedEncodingException;
+import java.util.Collections;
 
-/*@Controller
+@Controller
 
 public class RegistrationController {
-    @RequestMapping(value= "/registration", method =  RequestMethod.GET)
-    public String registration() {
-    return "registration";
-    }
 
-    @RequestMapping(value = "/registration", method = RequestMethod.POST)
-    protected String postRegistration()  {
-
-       //
-        // String userLogin=RegistrationForm registrationForm
-        // String userPassword=
-       // String userEmail = registrationForm.getEmail();
-      //  System.out.println(userEmail);
-        // Здесь выполняем какие-то действия (например, сохранение в БД)
+    @RequestMapping(value = "/registration", method = RequestMethod.GET)
+    public String enter() {
         return "registration";
     }
 
-}*/
+    @RequestMapping(value = "/registration", method = RequestMethod.POST)
 
-@Controller
-public class RegistrationController {
-    /*
-    @GetMapping("/registration")
+        public ModelAndView regPost (@ModelAttribute RegistrationForm registrationForm){
 
-        protected String resp()
-    {return "/registration";
-    }
-    */
-    @PostMapping("/registration")
-    protected String addManPost(RegistrationForm registrationForm ) throws UnsupportedEncodingException {
-        String login = registrationForm.getLogin();
-        System.out.println(login);
-        // Здесь выполняем какие-то действия (например, сохранение в БД)
-        return "/greeting";
-    }
+            UsersServices usersServices = new UsersServices();
 
-/*
-    @GetMapping("/greeting")
-    protected String getGreeting(
-        @RequestParam(name = "name",required = false, defaultValue = "1234") String name,
-                Model model){
-        model.addAttribute("name", name);// есть методы model.addAttribures() можно передавать колекции скорее всего есть метод для объектов
-        return "/greeting";
-    }
-    @PostMapping("/greeting")
-    protected String postGreeting(RegistrationForm registrationForm){
-        String name= registrationForm.getLogin();
-         return"redirect:/greeting";
-    }
+            Users users = new Users(); // для примера как записать в базу параметры
+            users.setEmail(registrationForm.getEmail());
+            users.setLogin(registrationForm.getLogin());
+            users.setPassword(registrationForm.getPassword());
+            users.setRoles(Collections.singleton(Role.USER));
+            users.setActive(true);
 
- */
-}
+            usersServices.saveUser(users);
+
+            ModelAndView mav = new ModelAndView();
+            mav.addObject("form", registrationForm);
+            mav.setViewName("login");
+            return mav;
+        }
+    }
 
 

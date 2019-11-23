@@ -3,13 +3,17 @@ package njp.NaumenJavaProject.forms;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class RegistrationForm {
     private String email;
     private String login;
     private  String password;
 
-
+    public RegistrationForm(String email, String login, String password) {
+        this.email = email;
+        this.login = login;
+        this.password = password;
+    }
 
     public String getEmail() {
         return email;

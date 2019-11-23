@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 
 
-<head xmlns:form="http://www.w3.org/1999/xhtml">
+<head xmlns:form="http://www.w3.org/1999/xhtml" >
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/styleForEnter.css">
@@ -19,7 +19,7 @@
 
         <div>
             <a class="nav" href="/help">Как это работает</a>
-            <a class="nav" href="/enter">Вход</a>
+            <a class="nav" href="/login">Вход</a>
             <a class="nav" href="/registration">Регистрация</a>
         </div>
 
@@ -29,22 +29,24 @@
     <div class="intro">
         <div class="info">
 
+            <form method="POST" modelAttribute="RegistrationForm"   lang="en" name="registrationForm"  action="/registration">
 
-           <form:form method="post" modelAttribute="registrationForm"  lang="en" name="registration"  action="/registration">
+                <input path="email" class="email"       type="text"     placeholder="Введите электронную почту..."
+                       name="email" id="email" maxlength="30">
 
+                <input path="login" class="login"       type="text"     placeholder="Введите логин..."
+                       name= "login" id="login" maxlength="30">
 
-             Email   <input path="email" class="email " type="email" placeholder="Введите электронную почту..."   id="em" maxlength="30"/>
-
-                <input path="login" class="login " type="text" placeholder="Введите логин..."  id="login" maxlength="30">
-
-                <input path="password" class="password" type="password" placeholder="Введите пароль..."  id="pass" maxlength="30">
+                <input path="password" class="password" type="password" placeholder="Введите пароль..."
+                       name="password" id="pass" maxlength="30">
 
                 <input class="botton" type="submit" value="Регистрация"  id="btn"><br><br>
 
-
-            </form:form>
-
-
+            </form>
+            <!--/*@thymesVar id="form" type="njp.NaumenJavaProject.forms.RegistrationForm"*/-->
+            <!--/*@thymesVar id="email" type="java.lang.String"*/-->
+<!--
+            <p th:text="${form.email}"/>    <!--  надо значение по умолчанию, иначе не отображается станица  на гет запросе-->
 
         </div>
     </div>

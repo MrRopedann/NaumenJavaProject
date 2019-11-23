@@ -11,8 +11,15 @@ public class UsersServices {
     public UsersServices() {
     }
 
+    public Users findUserLogin(String login) {
+        return usersDao.findByLogin(login);
+    }
+
     public Users findUser(int id) {
         return usersDao.findById(id);
+    }
+    public Users findUserEmail(String email){
+        return usersDao.findByEmail(email);
     }
 
     public void saveUser(Users users) {
