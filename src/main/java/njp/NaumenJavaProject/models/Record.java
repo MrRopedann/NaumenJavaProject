@@ -78,4 +78,9 @@ public class Record {
     public void setAttached(boolean attached) {
         this.attached = attached;
     }
+// пытаюсь переопределить тостринг для того чтоб показать объект на индекс. Если индекс работает норм, метод удалить
+    @Override
+    public String toString() {
+        return "super";
+    }
 }

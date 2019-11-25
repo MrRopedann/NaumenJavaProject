@@ -31,6 +31,12 @@
 
     <div class="tasks">
 
+            <p>
+        <p th:text="${record.login}">...</p>
+        <span th:text="${record.note}">...</span>
+        <span th:text="${record.id}">...</span>
+            </p>
+
 
         <form>
             <input type="button" value="Добавить задачу" onClick='location.href="/newRecord"'>
@@ -39,7 +45,6 @@
         <div class="blocks">
             <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t1" name="checkbox">
             <label for="t1" class="lab">
-
             </label>
         </div>
 

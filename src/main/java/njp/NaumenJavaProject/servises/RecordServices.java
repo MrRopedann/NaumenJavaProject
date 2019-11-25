@@ -12,11 +12,11 @@ public class RecordServices {
     public RecordServices() {
     }
 
-    public Record findUserLogin(String login) {
+    public Record findByLogin(String login) {
         return recordDao.findByLogin(login);
     }
 
-    public Record findUser(int id) {
+    public Record findById(long id) {
         return recordDao.findById(id);
     }
 
