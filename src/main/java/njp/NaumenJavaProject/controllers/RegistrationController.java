@@ -26,6 +26,7 @@ public class RegistrationController {
 
             UsersServices usersServices = new UsersServices();
 
+
             Users users = new Users(); // для примера как записать в базу параметры
             users.setEmail(registrationForm.getEmail());
             users.setLogin(registrationForm.getLogin());

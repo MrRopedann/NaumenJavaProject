@@ -3,6 +3,10 @@ package njp.NaumenJavaProject.servises;
 
 import njp.NaumenJavaProject.dao.UserDao;
 import njp.NaumenJavaProject.models.Users;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 
 public class UsersServices {
 
