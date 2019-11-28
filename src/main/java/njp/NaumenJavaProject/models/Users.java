@@ -1,6 +1,8 @@
 package njp.NaumenJavaProject.models;
 import javax.persistence.*;
 import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import static njp.NaumenJavaProject.models.Role.USER;
@@ -16,6 +18,18 @@ public class Users {
     private String email;
    // @Column(login = "login")
     private String login;
+
+        public List<Record> getRecords() {
+            return records;
+        }
+
+        public void setRecords(List<Record> records) {
+            this.records = records;
+        }
+
+        @OneToMany(mappedBy = "users", cascade = CascadeType.ALL)
+        private List<Record> records;
+
     //можно не указывать Column name, если оно совпадает с названием столбца в таблице
   //  @Column(password = "password")
     private String password;

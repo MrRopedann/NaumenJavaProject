@@ -19,6 +19,26 @@ public class Record {
     private boolean basket;
     private boolean attached;
 
+
+
+
+
+    @ManyToOne
+    @JoinColumn (name="user_id")
+    private Users users;
+
+    public Users getUsers() {
+        return users;
+    }
+
+    public void setUsers(Users users) {
+        this.users = users;
+    }
+
+
+
+
+
     public Record() {
     }
 

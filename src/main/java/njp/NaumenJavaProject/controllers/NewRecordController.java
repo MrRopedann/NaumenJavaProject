@@ -1,7 +1,9 @@
 package njp.NaumenJavaProject.controllers;
 import njp.NaumenJavaProject.forms.RecordForm;
 import njp.NaumenJavaProject.models.Record;
+import njp.NaumenJavaProject.models.Users;
 import njp.NaumenJavaProject.servises.RecordServices;
+import njp.NaumenJavaProject.servises.UsersServices;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -30,7 +32,12 @@ public class NewRecordController {
     @RequestMapping(value = "/newRecord", method = RequestMethod.POST)
     public ModelAndView createRecord (@ModelAttribute RecordForm recordForm){
 
-        RecordServices recordServices = new RecordServices();
+
+        UsersServices usersServices = new UsersServices();
+       // Users users=  usersServices.findUser(48);
+
+
+        Users users=  usersServices.findUserLogin("1");
 
         Record record = new Record();
         record.setAttached(false);
@@ -38,7 +45,10 @@ public class NewRecordController {
         record.setNote(recordForm.getNote());
         record.setStatus(false);
         record.setBasket(false);
-        record.setLogin(getCurrentUsername());
+        record.setLogin(users.getLogin());
+        record.setUsers(users);
+
+        RecordServices recordServices = new RecordServices();
         recordServices.saveRecord(record);
 
         ModelAndView mav = new ModelAndView();

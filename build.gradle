@@ -20,6 +20,9 @@ dependencies {
 
 
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager
+    compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.4.9.Final'
     compile 'org.hibernate:hibernate-core:5.4.8.Final'
     // https://mvnrepository.com/artifact/org.postgresql/postgresql
     compile group: 'org.postgresql', name: 'postgresql', version: '42.2.4.jre7'

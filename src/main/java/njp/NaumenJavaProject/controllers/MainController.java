@@ -3,6 +3,7 @@ package njp.NaumenJavaProject.controllers;
 import njp.NaumenJavaProject.forms.RegistrationForm;
 import njp.NaumenJavaProject.models.Record;
 import njp.NaumenJavaProject.servises.RecordServices;
+import njp.NaumenJavaProject.servises.UsersServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -29,7 +30,9 @@ public class MainController {
     public String/* ModelAndView*/ recordsForCurrentusers(Model model) {
 
         RecordServices  recordServices = new RecordServices()  ;
-        Record recordCurentUser = recordServices.findById(1);
+        UsersServices usersServices = new UsersServices();
+
+        Record recordCurentUser = recordServices.findByLogin(getCurrentUsername());
         Record record=recordCurentUser;
 
         //Set<Record>

@@ -25,15 +25,12 @@ public class RegistrationController {
         public ModelAndView regPost (@ModelAttribute RegistrationForm registrationForm){
 
             UsersServices usersServices = new UsersServices();
-
-
             Users users = new Users(); // для примера как записать в базу параметры
             users.setEmail(registrationForm.getEmail());
             users.setLogin(registrationForm.getLogin());
             users.setPassword(registrationForm.getPassword());
             users.setRoles(Collections.singleton(Role.USER));
             users.setActive(true);
-
             usersServices.saveUser(users);
 
             ModelAndView mav = new ModelAndView();

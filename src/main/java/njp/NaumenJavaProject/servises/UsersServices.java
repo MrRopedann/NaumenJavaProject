@@ -16,10 +16,10 @@ public class UsersServices {
     }
 
     public Users findUserLogin(String login) {
-        return usersDao.findByLogin(login);
+        return usersDao.findById(usersDao.findIDByLogin(login));
     }
 
-    public Users findUser(int id) {
+    public Users findUser(long id) {
         return usersDao.findById(id);
     }
     public Users findUserEmail(String email){

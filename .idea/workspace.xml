@@ -2,20 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="25,11,19">
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid8376.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NaumenJavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NaumenJavaProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/NewRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/NewRecordController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/RecordDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/RecordDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/models/Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/models/Record.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/models/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/RecordServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/RecordServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/RecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/RecordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/RecordServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/RecordServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,12 +104,17 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="record: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="user_role: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="todo" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="todo: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="users: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -134,12 +157,6 @@
                 <item name="NaumenJavaProject" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="NaumenJavaProject" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -195,18 +212,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources\templates" />
-      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\utils" />
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\servises" />
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\models" />
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\java\njp\NaumenJavaProject\dao" />
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources\templates" />
       <recent name="C:\Users\Ro\IdeaProjects\NaumenJavaProject\src\main\resources" />
     </key>
   </component>
@@ -326,12 +343,27 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f1c4d21e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec1cd83a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f1c4d21e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1984fee1" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec1cd83a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1313ffc0" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec1cd83a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2daf2b5c" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec1cd83a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2b1a316f" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec1cd83a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@12b0d036" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -393,6 +425,10 @@
       <workItem from="1574477198550" duration="14846000" />
       <workItem from="1574522090714" duration="7821000" />
       <workItem from="1574677829788" duration="7992000" />
+      <workItem from="1574761747292" duration="7558000" />
+      <workItem from="1574800200305" duration="3631000" />
+      <workItem from="1574829200704" duration="8460000" />
+      <workItem from="1574844627219" duration="30788000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot. the application starts and shows html 2">
       <created>1572572353814</created>
@@ -429,6 +465,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
