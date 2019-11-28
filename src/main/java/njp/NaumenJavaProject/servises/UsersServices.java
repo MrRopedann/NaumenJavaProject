@@ -2,10 +2,13 @@ package njp.NaumenJavaProject.servises;
 
 
 import njp.NaumenJavaProject.dao.UserDao;
+import njp.NaumenJavaProject.models.Record;
 import njp.NaumenJavaProject.models.Users;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 
 public class UsersServices {
@@ -19,12 +22,13 @@ public class UsersServices {
         return usersDao.findById(usersDao.findIDByLogin(login));
     }
 
+
+
     public Users findUser(long id) {
         return usersDao.findById(id);
     }
-    public Users findUserEmail(String email){
-        return usersDao.findByEmail(email);
-    }
+
+
 
     public void saveUser(Users users) {
         usersDao.save(users);
@@ -36,5 +40,8 @@ public class UsersServices {
 
     public void updateUser(Users users) {
         usersDao.update(users);
+    }
+    public List<Record> findAll(){
+        return usersDao.findAll();
     }
 }

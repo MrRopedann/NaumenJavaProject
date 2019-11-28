@@ -31,15 +31,15 @@ public class MainController {
 
         RecordServices  recordServices = new RecordServices()  ;
         UsersServices usersServices = new UsersServices();
-
-        Record recordCurentUser = recordServices.findByLogin(getCurrentUsername());
+        List <Record> records = usersServices.findAll();
+      /*  Record recordCurentUser = recordServices.findByLogin(getCurrentUsername());
         Record record=recordCurentUser;
-
+*/
         //Set<Record>
+      // Record record= records.get(0);
+      //  ModelAndView mav =new ModelAndView();
 
-        ModelAndView mav =new ModelAndView();
-
-        model.addAttribute("record", record);
+        model.addAttribute("records", records);
         return("../static/index");
        // return mav;
 

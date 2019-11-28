@@ -23,22 +23,20 @@ public class NewRecordController {
         return "newRecord";
     }
 
-    // метод добывает логин текущего пользователя
+    /* метод добывает логин текущего пользователя
     public String getCurrentUsername() {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         return auth.getName();
     }
-
+*/
     @RequestMapping(value = "/newRecord", method = RequestMethod.POST)
-    public ModelAndView createRecord (@ModelAttribute RecordForm recordForm){
+    public String/*ModelAndView*/ createRecord (@ModelAttribute RecordForm recordForm){
 
 
         UsersServices usersServices = new UsersServices();
-       // Users users=  usersServices.findUser(48);
 
 
-        Users users=  usersServices.findUserLogin("1");
-
+        Users users=  usersServices.findUserLogin(SecurityContextHolder.getContext().getAuthentication().getName());
         Record record = new Record();
         record.setAttached(false);
         record.setDate(recordForm.getDate());
@@ -55,7 +53,8 @@ public class NewRecordController {
 
         mav.addObject("form", recordForm);
         mav.setViewName("../static/index");
-        return mav;
+        //return mav;
+        return "redirect:/";
     }
 }
 

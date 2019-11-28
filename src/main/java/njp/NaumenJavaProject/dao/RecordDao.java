@@ -19,7 +19,6 @@ public class RecordDao {
 
 
 
-
    /* public long findIDByLogin(String paramName) {
 
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();

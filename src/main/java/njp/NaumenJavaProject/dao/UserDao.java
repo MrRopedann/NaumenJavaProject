@@ -2,6 +2,7 @@ package njp.NaumenJavaProject.dao;
 
 
 
+import njp.NaumenJavaProject.models.Record;
 import njp.NaumenJavaProject.models.Users;
 import njp.NaumenJavaProject.utils.HibernateSessionFactoryUtil;
 import org.hibernate.Criteria;
@@ -40,6 +41,11 @@ public class UserDao {
 */
     }
 
+    public List<Record> findAll() {
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        return session.createQuery("from Record c").list();
+    }
+
     public void save(Users users) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
         Transaction tx1 = session.beginTransaction();
@@ -64,7 +70,5 @@ public class UserDao {
         session.close();
     }
 
-    public Users findByEmail(String email) {
-        return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(Users.class, email);
-    }
+
 }

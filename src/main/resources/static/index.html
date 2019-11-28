@@ -33,12 +33,20 @@
 
     <div class="tasks">
 
+
+
+        <ul th:each="record : ${records}">
+            <li th:text="${record.note}"></li>
+        </ul>
+
+
+        <!-- закоментировал для проверки метода выше
             <p>
         <p th:text="${record.login}">...</p>
         <span th:text="${record.note}">...</span>
         <span th:text="${record.id}">...</span>
             </p>
-
+-->
 
         <form>
             <input type="button" value="Добавить задачу" onClick='location.href="/newRecord"'>
