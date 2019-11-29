@@ -22,9 +22,18 @@ public class RegistrationController {
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
 
-        public ModelAndView regPost (@ModelAttribute RegistrationForm registrationForm){
+    public ModelAndView regPost (@ModelAttribute RegistrationForm registrationForm){
 
-            UsersServices usersServices = new UsersServices();
+        UsersServices usersServices = new UsersServices();
+        Users user=usersServices.findUserLogin(registrationForm.getLogin());
+        if(user!=null) {
+            ModelAndView mav = new ModelAndView();
+            mav.addObject("form", registrationForm);
+            mav.addObject("isExist" ,true);
+            mav.setViewName("registration");
+            return mav;
+        }
+        else {
             Users users = new Users(); // для примера как записать в базу параметры
             users.setEmail(registrationForm.getEmail());
             users.setLogin(registrationForm.getLogin());
@@ -39,5 +48,4 @@ public class RegistrationController {
             return mav;
         }
     }
-
-
+}

@@ -22,6 +22,7 @@ public class UserDao {
 
     }
 
+
     public long findIDByLogin(String login) {
         //https://habr.com/ru/post/271115/
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
@@ -29,9 +30,10 @@ public class UserDao {
         userCriteria.add(Restrictions.eq("login", login));
         Users users = (Users) userCriteria.uniqueResult();
         session.close();
+        if(users==null) return 0;
         return users.getId();
 
-       // Query query = session.createQuery("FROM Users");
+        // Query query = session.createQuery("FROM Users");
         //List file = query.list();
       /*
         Query query = session.createQuery(" select id from users  where login =:paramName").setParameter("paramName", login);

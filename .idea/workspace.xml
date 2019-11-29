@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="25,11,19">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/NewRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/NewRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/RecordDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/RecordDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/RecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/RecordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -421,6 +412,7 @@
       <workItem from="1574800200305" duration="3631000" />
       <workItem from="1574829200704" duration="8460000" />
       <workItem from="1574844627219" duration="34273000" />
+      <workItem from="1574959370418" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot. the application starts and shows html 2">
       <created>1572572353814</created>

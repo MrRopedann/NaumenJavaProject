@@ -1,8 +1,8 @@
 
 <!DOCTYPE HTML>
 
-
-<head xmlns:form="http://www.w3.org/1999/xhtml" >
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/styleForEnter.css">
@@ -11,45 +11,47 @@
 </head>
 
 <body>
-    <div class="header">
+<div class="header">
 
-        <div class="logo">
-            ToDo List
-        </div>
-
-        <div>
-            <a class="nav" href="/help">Как это работает</a>
-            <a class="nav" href="/login">Вход</a>
-            <a class="nav" href="/registration">Регистрация</a>
-        </div>
-
+    <div class="logo">
+        ToDo List
     </div>
 
-
-    <div class="intro">
-        <div class="info">
-
-            <form method="POST" modelAttribute="RegistrationForm"   lang="en" name="registrationForm"  action="/registration">
-
-                <input path="email" class="email"       type="text"     placeholder="Введите электронную почту..."
-                       name="email" id="email" maxlength="30">
-
-                <input path="login" class="login"       type="text"     placeholder="Введите логин..."
-                       name= "login" id="login" maxlength="30">
-
-                <input path="password" class="password" type="password" placeholder="Введите пароль..."
-                       name="password" id="pass" maxlength="30">
-
-                <input class="botton" type="submit" value="Регистрация"  id="btn"><br><br>
-
-            </form>
-            <!--/*@thymesVar id="form" type="njp.NaumenJavaProject.forms.RegistrationForm"*/-->
-            <!--/*@thymesVar id="email" type="java.lang.String"*/-->
-<!--
-            <p th:text="${form.email}"/>    <!--  надо значение по умолчанию, иначе не отображается станица  на гет запросе-->
-
-        </div>
+    <div>
+        <a class="nav" href="/help">Как это работает</a>
+        <a class="nav" href="/login">Вход</a>
+        <a class="nav" href="/registration">Регистрация</a>
     </div>
+
+</div>
+
+
+<div class="intro">
+    <div class="info">
+        <div th:if="${isExist}">
+            Такой логин уже существует.
+        </div>
+        <form method="POST" modelAttribute="RegistrationForm"   lang="en" name="registrationForm"  action="/registration">
+
+            <input path="email" class="email"       type="text"     placeholder="Введите электронную почту..."
+                   name="email" id="email" maxlength="30">
+
+            <input path="login" class="login"       type="text"     placeholder="Введите логин..."
+                   name= "login" id="login" maxlength="30">
+
+            <input path="password" class="password" type="password" placeholder="Введите пароль..."
+                   name="password" id="pass" maxlength="30">
+
+            <input class="botton" type="submit" value="Регистрация"  id="btn"><br><br>
+
+        </form>
+        <!--/*@thymesVar id="form" type="njp.NaumenJavaProject.forms.RegistrationForm"*/-->
+        <!--/*@thymesVar id="email" type="java.lang.String"*/-->
+        <!--
+                    <p th:text="${form.email}"/>    <!--  надо значение по умолчанию, иначе не отображается станица  на гет запросе-->
+
+    </div>
+</div>
 
 </body>
 
