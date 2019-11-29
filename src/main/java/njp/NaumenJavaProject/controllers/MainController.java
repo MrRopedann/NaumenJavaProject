@@ -31,7 +31,7 @@ public class MainController {
 
         RecordServices  recordServices = new RecordServices()  ;
         UsersServices usersServices = new UsersServices();
-        List <Record> records = usersServices.findAll();
+        List <Record> records = usersServices.findAll(getCurrentUsername());
       /*  Record recordCurentUser = recordServices.findByLogin(getCurrentUsername());
         Record record=recordCurentUser;
 */

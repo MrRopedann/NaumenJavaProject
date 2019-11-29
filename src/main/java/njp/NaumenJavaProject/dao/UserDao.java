@@ -43,9 +43,12 @@ public class UserDao {
 */
     }
 
-    public List<Record> findAll() {
+    public List<Record> findAll(String login) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
-        return session.createQuery("from Record c").list();
+        Query query = session.createQuery("from Record c where c.login=:login");
+        query.setParameter("login", login);
+
+        return        query.list();
     }
 
     public void save(Users users) {
