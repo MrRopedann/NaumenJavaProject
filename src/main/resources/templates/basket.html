@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">
@@ -30,80 +30,24 @@
 
     <div class="tasks">
 
+
+
+
        <div class="bottons">
-        <input type="button" class="buttonForAction" value="Восстановить">
-        <input type="button" class="buttonForAction" value="Удалить">
-        <input type="button" class="buttonForAction" value="Удалить все">
+
+           <ul th:each="record : ${records}">
+               <form>
+                   <h5 th:text="${record.note}"></h5>
+                   <input type="submit" class="buttonForAction" value="Восстановить">
+                   <input type="submit" class="buttonForAction" value="Удалить">
+               </form>
+           </ul>
+
+
         </div>
 
-        <div class="blocks">
-            <input type="checkbox" id="t1" class="selection">
-             <label for="t1" class="lab">
 
-            </label>
-        </div>
 
-        <div class="blocks">
-            <input type="checkbox" id="t2" class="selection">
-             <label for="t2" class="lab">
-
-            </label>
-        </div>
-
-        <div class="blocks">
-            <input type="checkbox" id="t3" class="selection">
-            <label for="t3" class="lab">
-
-            </label>
-        </div>
-
-        <div class="blocks">
-            <input type="checkbox" id="t4" class="selection">
-            <label for="t4" class="lab">
-
-            </label>
-        </div>
-
-        <div class="blocks">
-            <input type="checkbox" id="t5" class="selection">
-            <label for="t5" class="lab">
-
-            </label>
-        </div>
-
-        <div class="blocks">
-            <input type="checkbox" id="t6" class="selection">
-
-            <label for="t6" class="lab">
-
-            </label>
-        </div>
-
-        <div class="blocks">
-            <input type="checkbox" id="t7" class="selection">
-            <label for="t7" class="lab">
-
-            </label>
-        </div>
-
-        <div class="blocks">
-            <input type="checkbox" id="t8" class="selection">
-            <label for="t8" class="lab">
-
-            </label>
-        </div>
-
-        <div class="blocks">
-            <input type="checkbox" id="t9" class="selection">
-            <label for="t9" class="lab">
-            </label>
-        </div>
-        <div class="blocks">
-            <input type="checkbox"  d="t10" class="selection">
-            <label for="t10" class="lab">
-
-            </label>
-        </div>
     </div>
     
     
@@ -120,7 +64,7 @@
                 <label for="date2">по</label>
                 <input type="date" class="formDate" id="date2">
             </div>
-            <a class="men" href="/basket">Корзина</a>
+            <a class="men" href="/">"на главную"</a>
         </div>
     </div>
 

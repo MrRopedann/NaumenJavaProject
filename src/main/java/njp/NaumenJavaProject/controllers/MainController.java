@@ -29,9 +29,9 @@ public class MainController {
 
     public String/* ModelAndView*/ recordsForCurrentusers(Model model) {
 
-        RecordServices  recordServices = new RecordServices()  ;
+      //  RecordServices  recordServices = new RecordServices()  ;
         UsersServices usersServices = new UsersServices();
-        List <Record> records = usersServices.findAll(getCurrentUsername());
+        List <Record> records = usersServices.findAll(getCurrentUsername(),false);
       /*  Record recordCurentUser = recordServices.findByLogin(getCurrentUsername());
         Record record=recordCurentUser;
 */

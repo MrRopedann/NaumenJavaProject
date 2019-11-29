@@ -41,8 +41,8 @@ public class UsersServices {
     public void updateUser(Users users) {
         usersDao.update(users);
     }
-    public List<Record> findAll(String login){
+    public List<Record> findAll(String login, boolean basket){
 
-        return usersDao.findAll(login);
+        return usersDao.findAll(login,basket);
     }
 }
