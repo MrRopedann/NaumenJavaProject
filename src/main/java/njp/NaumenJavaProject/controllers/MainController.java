@@ -1,5 +1,6 @@
 package njp.NaumenJavaProject.controllers;
 
+import njp.NaumenJavaProject.forms.CurrentRecordForm;
 import njp.NaumenJavaProject.forms.RegistrationForm;
 import njp.NaumenJavaProject.models.Record;
 import njp.NaumenJavaProject.servises.RecordServices;
@@ -33,4 +34,13 @@ public class MainController {
         model.addAttribute("records", records);
         return("../static/index");
       }
+    @RequestMapping(value = "/", method = RequestMethod.POST)
+    public ModelAndView regPost (@ModelAttribute CurrentRecordForm currentRecordForm) {
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("/editing");
+        RecordServices recordServices =new RecordServices();
+        Record record = recordServices.findById(currentRecordForm.getId());
+        mav.addObject("note",record.getNote());
+        return mav;
+    }
 }

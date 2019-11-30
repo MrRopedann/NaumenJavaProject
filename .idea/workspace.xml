@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="25,11,19">
-      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/BasketForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/CurrentRecordForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -12,16 +12,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/BasketControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/BasketControler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/NewRecordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/NewRecordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/BasketControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/BasketControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editing.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -427,6 +421,7 @@
       <workItem from="1575016651588" duration="5753000" />
       <workItem from="1575056132303" duration="5382000" />
       <workItem from="1575095172040" duration="9368000" />
+      <workItem from="1575132415179" duration="4715000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot. the application starts and shows html 2">
       <created>1572572353814</created>
