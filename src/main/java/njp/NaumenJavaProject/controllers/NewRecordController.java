@@ -45,7 +45,6 @@ public class NewRecordController {
         record.setBasket(false);
         record.setLogin(users.getLogin());
         record.setUsers(users);
-
         RecordServices recordServices = new RecordServices();
         recordServices.saveRecord(record);
 
@@ -53,7 +52,6 @@ public class NewRecordController {
 
         mav.addObject("form", recordForm);
         mav.setViewName("../static/index");
-        //return mav;
         return "redirect:/";
     }
 }

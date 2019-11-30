@@ -31,16 +31,27 @@
     <div class="tasks">
 
 
-
-
+        <!--/*@thymesVar id="record" type="njp.NaumenJavaProject.models.Record"*/-->
+        <!--/*@thymesVar id="records" type="java.util.List"*/-->
        <div class="bottons">
 
+
            <ul th:each="record : ${records}">
-               <form>
-                   <h5 th:text="${record.note}"></h5>
+
+               <h5 th:text="${record.note}"></h5>
+
+               <form method="POST" modelAttribute="BasketForm"   lang="en" name="BasketForm"  action="/recoverfromBasket">
+
+                   <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
                    <input type="submit" class="buttonForAction" value="Восстановить">
-                   <input type="submit" class="buttonForAction" value="Удалить">
                </form>
+
+
+             <form action="#" th:action="@{/deleteRecord}" th:object="${basketForm}"method="POST" >
+                 <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
+                   <input type="submit" class="buttonForAction" value="Удалить">
+             </form>
+
            </ul>
 
 

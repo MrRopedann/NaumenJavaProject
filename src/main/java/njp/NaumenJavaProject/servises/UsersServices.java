@@ -28,7 +28,10 @@ public class UsersServices {
         return usersDao.findById(id);
     }
 
+    public List<Record> findAll(String login, boolean basket){
 
+        return usersDao.findAll(login,basket);
+    }
 
     public void saveUser(Users users) {
         usersDao.save(users);
@@ -41,8 +44,5 @@ public class UsersServices {
     public void updateUser(Users users) {
         usersDao.update(users);
     }
-    public List<Record> findAll(String login, boolean basket){
 
-        return usersDao.findAll(login,basket);
-    }
 }

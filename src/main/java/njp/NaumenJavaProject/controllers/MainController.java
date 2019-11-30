@@ -26,23 +26,11 @@ public class MainController {
     }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String recordsForCurrentusers(Model model) {
 
-    public String/* ModelAndView*/ recordsForCurrentusers(Model model) {
-
-      //  RecordServices  recordServices = new RecordServices()  ;
         UsersServices usersServices = new UsersServices();
         List <Record> records = usersServices.findAll(getCurrentUsername(),false);
-      /*  Record recordCurentUser = recordServices.findByLogin(getCurrentUsername());
-        Record record=recordCurentUser;
-*/
-        //Set<Record>
-      // Record record= records.get(0);
-      //  ModelAndView mav =new ModelAndView();
-
         model.addAttribute("records", records);
         return("../static/index");
-       // return mav;
-
-
-    }
+      }
 }
