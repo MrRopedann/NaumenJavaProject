@@ -26,7 +26,7 @@ public class BasketControler {
 
     public String showBasket(Model model) {
         UsersServices usersServices = new UsersServices();
-        List<Record> records = usersServices.findAll(getCurrentUsername(),true);
+        List<Record> records = usersServices.findAllBasket(getCurrentUsername(),true );
         model.addAttribute("records", records);
         return("/basket");
     }

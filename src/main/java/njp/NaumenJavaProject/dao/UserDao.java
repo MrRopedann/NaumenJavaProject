@@ -43,11 +43,20 @@ public class UserDao {
 */
     }
 // метод получает список записей по логину и состоянию поля basket
-    public List<Record> findAll(String login, boolean basket) {
+    public List<Record> findAllBasket(String login, boolean basket) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
         Query query = session.createQuery("from Record c where c.login=:login and c.basket = :basket");
         query.setParameter("login", login);
         query.setParameter("basket", basket);
+        return        query.list();
+    }
+
+    public List<Record> findAll(String login, boolean basket, boolean status) {
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Query query = session.createQuery("from Record c where c.login=:login and c.basket = :basket and c.status=:status");
+        query.setParameter("login", login);
+        query.setParameter("basket", basket);
+        query.setParameter("status", status);
         return        query.list();
     }
 

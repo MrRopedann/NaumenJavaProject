@@ -40,14 +40,14 @@
 
                <h5 th:text="${record.note}"></h5>
 
-               <form method="POST" modelAttribute="BasketForm"   lang="en" name="BasketForm"  action="/recoverfromBasket">
+               <form method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/recoverfromBasket">
 
                    <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
                    <input type="submit" class="buttonForAction" value="Восстановить">
                </form>
 
 
-             <form action="#" th:action="@{/deleteRecord}" th:object="${basketForm}"method="POST" >
+             <form action="#" th:action="@{/deleteRecord}" th:object="${CurrentRecordForm}"method="POST" >
                  <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
                    <input type="submit" class="buttonForAction" value="Удалить">
              </form>
@@ -62,7 +62,7 @@
     </div>
     
     
-
+<!--
     <div class="menu">
         <div class="textMenu">
             <a class="men" href="/index">Незавершенные</a>
@@ -78,7 +78,7 @@
             <a class="men" href="/">"на главную"</a>
         </div>
     </div>
-
+-->
 </body>
 
 </html>

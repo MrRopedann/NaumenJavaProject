@@ -1,16 +1,13 @@
 package njp.NaumenJavaProject.controllers;
 
 import njp.NaumenJavaProject.forms.CurrentRecordForm;
-import njp.NaumenJavaProject.forms.RegistrationForm;
 import njp.NaumenJavaProject.models.Record;
 import njp.NaumenJavaProject.servises.RecordServices;
 import njp.NaumenJavaProject.servises.UsersServices;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -30,7 +27,7 @@ public class MainController {
     public String recordsForCurrentusers(Model model) {
 
         UsersServices usersServices = new UsersServices();
-        List <Record> records = usersServices.findAll(getCurrentUsername(),false);
+        List <Record> records = usersServices.findAll(getCurrentUsername(),false, false);
         model.addAttribute("records", records);
         return("../static/index");
       }
@@ -43,4 +40,22 @@ public class MainController {
         mav.addObject("record", record);
         return mav;
     }
+
+    @RequestMapping(value = "/toBasket", method = RequestMethod.POST)
+    public String toBasket(@ModelAttribute CurrentRecordForm basketForm){
+            RecordServices recordServices =new RecordServices();
+            Record record = recordServices.findById(basketForm.getId());//
+            record.setBasket(true);
+            recordServices.updateRecord(record);
+        return "redirect:/";
+    }
+    @RequestMapping(value = "/endTask", method = RequestMethod.POST)
+    public String endTask(@ModelAttribute CurrentRecordForm basketForm){
+        RecordServices recordServices =new RecordServices();
+        Record record = recordServices.findById(basketForm.getId());//
+        record.setStatus(true);
+        recordServices.updateRecord(record);
+        return "redirect:/";
+    }
+
 }

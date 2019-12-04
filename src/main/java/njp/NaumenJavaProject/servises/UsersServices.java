@@ -28,9 +28,14 @@ public class UsersServices {
         return usersDao.findById(id);
     }
 
-    public List<Record> findAll(String login, boolean basket){
+    public List<Record> findAll(String login, boolean basket, boolean status ){
 
-        return usersDao.findAll(login,basket);
+        return usersDao.findAll(login,basket,status);
+    }
+
+    public List<Record> findAllBasket(String login, boolean basket){
+
+        return usersDao.findAllBasket(login,basket);
     }
 
     public void saveUser(Users users) {
