@@ -1,6 +1,7 @@
 package njp.NaumenJavaProject.controllers;
 
-import njp.NaumenJavaProject.forms.BasketForm;
+
+import njp.NaumenJavaProject.forms.CurrentRecordForm;
 import njp.NaumenJavaProject.models.Record;
 import njp.NaumenJavaProject.servises.RecordServices;
 import njp.NaumenJavaProject.servises.UsersServices;
@@ -31,18 +32,17 @@ public class BasketControler {
     }
     //метод для восстановления из корзины, форма должна прердать в него id и basket
     @RequestMapping(value ="/recoverfromBasket", method = RequestMethod.POST)
-    public String recoverfromBasket(@ModelAttribute BasketForm basketForm){
+    public String recoverfromBasket(@ModelAttribute CurrentRecordForm basketForm){
         UsersServices usersServices = new UsersServices();
         RecordServices recordServices =new RecordServices();
-        //не прередаётся id из формы, в остальном работает.
-        Record record = recordServices.findById(/*6*/basketForm.getId());//
+        Record record = recordServices.findById(basketForm.getId());//
         record.setBasket(false);
         recordServices.updateRecord(record);
         return "redirect:/basket";
     }
     //метод для удаления из корзины, форма должна передать в него id
     @RequestMapping(value ="/deleteRecord", method = RequestMethod.POST)
-    public String deleteRecord(@ModelAttribute BasketForm basketForm){
+    public String deleteRecord(@ModelAttribute CurrentRecordForm basketForm){
         RecordServices recordServices =new RecordServices();
         //не прередаётся id из формы, в остальном работает.
         Record record = recordServices.findById(basketForm.getId()); //

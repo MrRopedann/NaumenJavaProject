@@ -7,21 +7,51 @@ public class RecordForm {
     private  boolean status;
     private String note;
     private String date;
+
+
+    public boolean isBasket() {
+        return basket;
+    }
+
+    public void setBasket(boolean basket) {
+        this.basket = basket;
+    }
+
     private boolean basket;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    private long id;
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    private boolean attached;
+
     public RecordForm(String note, String date){
         this.note = note;
         this.date = date;
     }
+//конструктор ниже для тестирования editing
+    public RecordForm( String note, String date, boolean status, long id) {
+        this.status = status;
+        this.note = note;
+        this.date = date;
+        this.id =id;
+    }
 
     public RecordForm() {
-    }
-
-    public boolean getStatus() {
-        return status;
-    }
-
-    public void setStatusOfDone(boolean status) {
-        this.status = status;
     }
 
     public String getNote() {
@@ -40,11 +70,11 @@ public class RecordForm {
         this.date = date;
     }
 
-    public boolean getBasket() {
-        return basket;
+    public boolean isAttached() {
+        return attached;
     }
 
-    public void setBasket(boolean basket) {
-        this.basket = basket;
+    public void setAttached(boolean attached) {
+        this.attached = attached;
     }
 }

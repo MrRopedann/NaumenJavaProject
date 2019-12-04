@@ -44,12 +44,12 @@
         <a class="men" href="basket.html">Корзина</a>
     </div>
 </div>
-
+<!--
 <div class="editing">
     <form>
         <div class="delCancelSave">
             <div>
-                <input type="image" src="assets/images/del.png" class="botton">
+                    <input type="image" src="assets/images/del.png"  class="botton" >
             </div>
             <div>
                 <input type="image" src="assets/images/importan.png" class="botton">
@@ -57,21 +57,35 @@
                 <input type="image" src="assets/images/save.png" class="botton">
             </div>
         </div>
-
         <div class="date">
             <input type="date" class="botton">
             <input type="image" src="assets/images/date.png" class="botton">
-
-
         </div>
     </form>
+
     <div class="taskText">
         <form>
             <textarea name="comment" class="text" th:text="${note}"></textarea>
         </form>
     </div>
     <input class="finished" type="button" value="Завершить задачу">
-
 </div>
+-->
+<!--/*@thymesVar id="record" type="njp.NaumenJavaProject.models.Record"*/-->
+
+    <form action="#" th:action="@{/editRecord}" th:object="${RecordForm}"method="POST" >
+        <textarea path="note" name="note" class="text" th:text="${record.note}"></textarea>
+        <input path="date" class="date"      th:attr="value=${record.date}"  type="date" name="date" id="date" >
+
+        <input path="status" name="status" title="Завершено" type="checkbox" th:checked="${record.status}" >
+        <input path="attached" name="attached" title="Закрепить" type="checkbox" th:checked="${record.attached}" >
+<!-- th:checked-->
+        <input path="basket" name="basket" title="В корзину" type="checkbox" th:checked="${record.basket}" >
+        <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
+        <input type="submit" class="buttonForAction" value="сохранить">
+
+    </form>
+
+
 
 </body></html>

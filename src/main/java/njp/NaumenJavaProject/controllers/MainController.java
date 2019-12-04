@@ -40,7 +40,7 @@ public class MainController {
         mav.setViewName("/editing");
         RecordServices recordServices =new RecordServices();
         Record record = recordServices.findById(currentRecordForm.getId());
-        mav.addObject("note",record.getNote());
+        mav.addObject("record", record);
         return mav;
     }
 }
