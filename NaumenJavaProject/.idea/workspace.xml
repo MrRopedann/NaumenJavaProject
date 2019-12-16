@@ -1,76 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="25,11,19">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/NaumenJavaProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/NaumenJavaProjectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/EditingController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/EditingController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/EditingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/EditingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/ReminderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/dao/ReminderDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/ReminderServises.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/ReminderServises.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/njp/NaumenJavaProject/servises/UsersServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForEditing.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForEditing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForEnter.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForEnter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForHowWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForHowWork.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForTasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/assets/css/styleForTasks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/editing.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/editing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/howItWorks.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/howItWorks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/newRecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/newRecord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/NaumenJavaProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/NaumenJavaProjectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/config/MyConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/config/MyConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/BasketControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/BasketControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/EditingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/EditingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/NewRecordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/RecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/RecordDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/ReminderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/ReminderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/CurrentRecordForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/CurrentRecordForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/RecordForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/RecordForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/RegistrationForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/SelectRecordsForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/forms/SelectRecordsForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Reminder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Reminder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/RecordServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/RecordServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/ReminderServises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/ReminderServises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/servises/UsersServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/utils/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/njp/NaumenJavaProject/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForEditing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForEditing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForEnter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForEnter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForHowWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForHowWork.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForTasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/css/styleForTasks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/howItWorks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/howItWorks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newRecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newRecord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-    </list>
+    <list default="true" id="bf66d6e0-3401-464f-92cc-a818b6dd3730" name="Default Changelist" comment="25,11,19" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +123,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -486,6 +417,8 @@
       <workItem from="1576294471246" duration="10215000" />
       <workItem from="1576397862546" duration="3177000" />
       <workItem from="1576468765712" duration="1696000" />
+      <workItem from="1576488996706" duration="2980000" />
+      <workItem from="1576492653995" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot. the application starts and shows html 2">
       <created>1572572353814</created>

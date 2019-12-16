@@ -76,11 +76,17 @@
     <form action="#" th:action="@{/editRecord}" th:object="${RecordForm}"method="POST" >
         <textarea path="note" name="note" class="text" th:text="${record.note}"></textarea>
         <input path="date" class="date"      th:attr="value=${record.date}"  type="date" name="date" id="date" >
-
+        <p> Завершено
         <input path="status" name="status" title="Завершено" type="checkbox" th:checked="${record.status}" >
+        </p>
+        <p> Закрепить
         <input path="attached" name="attached" title="Закрепить" type="checkbox" th:checked="${record.attached}" >
 <!-- th:checked-->
+        </p>
+        <p> В корзину
         <input path="basket" name="basket" title="В корзину" type="checkbox" th:checked="${record.basket}" >
+        </p>
+
         <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
         <p> Вам напомнить?
             <input path="remind" name="remind" title="напомнить" type="checkbox">

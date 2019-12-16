@@ -7,20 +7,27 @@
 <body>
 <h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
 <form th:action="@{/logout}" method="post">
-    <input type="submit" value="Sign Out"/>
+    <input type="submit" value="Выход"/>
 </form>
 
 <form method="POST" modelAttribute="RecordForm"   lang="en" name="RecordForm"  action="/newRecord">
 
     <input path="note" class="note"       type="text"     placeholder="Что вы хотите сделать"
            name="note" id="note" maxlength="10000">
-
     <input path="date" class="date"       type="date"     placeholder="время выполнения"
            name= "date" id="date" >
 
+    <p> Закрепить
+        <input path="attached" name="attached" title="Закрепить" type="checkbox"  >
+        <!-- th:checked-->
+    </p>
+    <p> Вам напомнить?
+        <input path="remind" name="remind" title="напомнить" type="checkbox">
+        Установите дату
+        <input path="dateReminder" class="dateReminder"  type="date" name="dateReminder" id="dateReminder" >
+    </p>
 
     <input class="button" type="submit" value="Создать задачу"  id="btn"><br><br>
-
 </form>
 
 

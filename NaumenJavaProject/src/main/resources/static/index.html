@@ -24,7 +24,7 @@
         <a class="nav" href="/login">Вход</a>
         <a class="nav" href="/registration">Регистрация</a>
         <form th:action="@{/logout}" method="post">
-            <input type="submit" value="Sign Out"/>
+            <input type="submit" value="Выход"/>
         </form>
     </div>
 
@@ -115,7 +115,7 @@
 
 <div class="menu">
     <div class="textMenu">
-        <h1 class="h1Menu">Незавершенные</h1>
+        <h1 class="h1Menu">Поиск по дате</h1>
         <div class="filter">
             <form method="POST" modelAttribute="SelectRecordsForm"   lang="en" name="SelectRecordsForm"  action="/selectRecord">
             <label for="date1">C</label>
