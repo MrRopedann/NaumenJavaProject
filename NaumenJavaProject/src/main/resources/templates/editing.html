@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/styleForEditing.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <title>Todo</title>
+</head>
+
+<body>
+<div class="intro">
+</div>
+<div class="header">
+
+    <div class="logo">
+        <img src="assets/images/light.jpg">
+        ToDo List
+    </div>
+
+    <div>
+        <a class="nav" href="/help">Как это работает</a>
+        <a class="nav" href="/login">Вход</a>
+        <a class="nav" href="/registration">Регистрация</a>
+    </div>
+
+
+
+
+</div>
+
+<div class="menu">
+    <div class="textMenu">
+        <a class="men" href="tasks.html">Незавершенные</a>
+        <div class="filter">
+            <p class="day">Сегодня</p>
+            <p class="day">Завтра</p>
+            <label for="date1">C</label>
+            <input type="date" class="formDate" id="date1">
+            <br><br>
+            <label for="date2">по</label>
+            <input type="date" class="formDate" id="date2">
+        </div>
+        <a class="men" href="basket.html">Корзина</a>
+    </div>
+</div>
+<!--
+<div class="editing">
+    <form>
+        <div class="delCancelSave">
+            <div>
+                    <input type="image" src="assets/images/del.png"  class="botton" >
+            </div>
+            <div>
+                <input type="image" src="assets/images/importan.png" class="botton">
+                <input type="image" src="assets/images/cancel.png" class="botton">
+                <input type="image" src="assets/images/save.png" class="botton">
+            </div>
+        </div>
+        <div class="date">
+            <input type="date" class="botton">
+            <input type="image" src="assets/images/date.png" class="botton">
+        </div>
+    </form>
+
+    <div class="taskText">
+        <form>
+            <textarea name="comment" class="text" th:text="${note}"></textarea>
+        </form>
+    </div>
+    <input class="finished" type="button" value="Завершить задачу">
+</div>
+-->
+<!--/*@thymesVar id="record" type="njp.NaumenJavaProject.models.Record"*/-->
+
+    <form action="#" th:action="@{/editRecord}" th:object="${RecordForm}"method="POST" >
+        <textarea path="note" name="note" class="text" th:text="${record.note}"></textarea>
+        <input path="date" class="date"      th:attr="value=${record.date}"  type="date" name="date" id="date" >
+
+        <input path="status" name="status" title="Завершено" type="checkbox" th:checked="${record.status}" >
+        <input path="attached" name="attached" title="Закрепить" type="checkbox" th:checked="${record.attached}" >
+<!-- th:checked-->
+        <input path="basket" name="basket" title="В корзину" type="checkbox" th:checked="${record.basket}" >
+        <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
+        <p> Вам напомнить?
+            <input path="remind" name="remind" title="напомнить" type="checkbox">
+            Установите дату
+            <input path="dateReminder" class="dateReminder"  type="date" name="dateReminder" id="dateReminder" >
+        </p>
+
+        <input type="submit" class="buttonForAction" value="сохранить">
+
+    </form>
+
+
+
+</body></html>

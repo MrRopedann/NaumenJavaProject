@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="assets/css/styleForTasks.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <title>Todo</title>
+</head>
+
+<body>
+    <div class="intro">
+    </div>
+    <div class="header">
+
+        <div class="logo">
+            <img src="http://www.seoded.ru/image/seoded.png" >
+            ToDo List
+        </div>
+
+        <div>
+            <a class="nav" href="/help">Как это работает</a>
+            <a class="nav" href="/login">Вход</a>
+            <a class="nav" href="/registration">Регистрация</a>
+        </div>
+
+    </div>
+
+
+    <div class="tasks">
+
+
+        <!--/*@thymesVar id="record" type="njp.NaumenJavaProject.models.Record"*/-->
+        <!--/*@thymesVar id="records" type="java.util.List"*/-->
+       <div class="bottons">
+
+
+           <ul th:each="record : ${records}">
+
+               <h5 th:text="${record.note}"></h5>
+
+               <form method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/recoverfromBasket">
+
+                   <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
+                   <input type="submit" class="buttonForAction" value="Восстановить">
+               </form>
+
+
+             <form action="#" th:action="@{/deleteRecord}" th:object="${CurrentRecordForm}"method="POST" >
+                 <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
+                   <input type="submit" class="buttonForAction" value="Удалить">
+             </form>
+
+           </ul>
+
+
+        </div>
+
+
+
+    </div>
+    
+    
+<!--
+    <div class="menu">
+        <div class="textMenu">
+            <a class="men" href="/index">Незавершенные</a>
+            <div class="filter">
+                <p class="day">Сегодня</p>
+                <p class="day">Завтра</p>
+                <label for="date1">C</label>
+                <input type="date" class="formDate" id="date1">
+                <br><br>
+                <label for="date2">по</label>
+                <input type="date" class="formDate" id="date2">
+            </div>
+            <a class="men" href="/">"на главную"</a>
+        </div>
+    </div>
+-->
+</body>
+
+</html>
