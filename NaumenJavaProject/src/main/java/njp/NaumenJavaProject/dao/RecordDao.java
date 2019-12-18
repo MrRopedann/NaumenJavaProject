@@ -40,6 +40,10 @@ public class RecordDao {
     public void delete(Record record) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
         Transaction tx1 = session.beginTransaction();
+
+       // ReminderDao reminderDao =new ReminderDao();
+
+       // session.delete(reminderDao.findByRecordId(record.getId()));//
         session.delete(record);
         tx1.commit();
         session.close();

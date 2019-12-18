@@ -20,8 +20,9 @@
 
     <div>
         <a class="nav" href="/help">Как это работает</a>
-        <a class="nav" href="/login">Вход</a>
-        <a class="nav" href="/registration">Регистрация</a>
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Выход"/>
+        </form>
     </div>
 
 
@@ -31,7 +32,7 @@
 
 <div class="menu">
     <div class="textMenu">
-        <a class="men" href="tasks.html">Незавершенные</a>
+        <a class="men" href="/">Незавершенные</a>
         <div class="filter">
             <p class="day">Сегодня</p>
             <p class="day">Завтра</p>
