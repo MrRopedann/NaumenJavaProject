@@ -3,47 +3,132 @@
 
 <head>
     <meta charset="UTF-8">
-   <!-- <link rel="stylesheet" href="assets/css/styleForEnter.css">  -->
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <!--link rel="stylesheet" href="assets/css/styleForEnter.css"-->
+    <!--link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet"-->
     <title>Todo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+
+        .intro {
+            width: 100%;
+            height: 100vh;
+            background:  url(https://kotiki.net/wp-content/uploads/2017/02/%D0%A1%D1%82%D0%B8%D1%85%D0%B8-%D0%BF%D1%80%D0%BE-%D0%BA%D0%BE%D1%82%D0%B8%D0%BA%D0%BE%D0%B2.-%D0%A1%D0%B0%D0%BC%D1%83%D0%B8%D0%BB-%D0%9C%D0%B0%D1%80%D1%88%D0%B0%D0%BA-660x330.jpg) no-repeat ;
+            background-size: 100%;
+        }
+
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            height: 10%;
+            margin-top: 1%;
+
+        }
+
+        .nav {
+            color: black;
+            font-weight: 700;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        .nav:hover {
+            color: #4715cb;
+        }
+
+        .logo {
+            display: flex;
+            font-size: 40px;
+            font-weight: 700;
+            color: black;
+        }
+
+        .info {
+            float: left;
+            margin-top: 13%;
+            margin-left: 4%;
+            width: 50%;
+        }
+
+        .login,
+        .password{
+            width: 75%;
+            font-size: 100%;
+            padding: 2.5%;
+            margin: 3%;
+        }
+
+        .botton {
+            min-width: 20%;
+            width: auto;
+            font-size: 100%;
+            padding: 2.5%;
+            margin: 3%;
+            color: white;
+            font-weight: 500;
+            background-color: rgba(16, 15, 15, 0.8);
+            border: none;
+        }
+
+        .botton:hover {
+            background-color: rgba(70, 45, 137, 0.79);
+        }
+
+        .lab {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 3%;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="header">
+<div class="header">
 
-        <div class="logo">
-            ToDo List
+    <div class="logo">
+        ToDo List
+    </div>
+
+    <div>
+        <a class="nav" href="/help">Как это работает</a>
+        <a class="nav" href="/login">Вход</a>
+        <a class="nav" href="/registration">Регистрация</a>
+    </div>
+
+</div>
+
+
+
+<div class="intro">
+    <div class="info">
+        <div th:if="${param.error}" class="lab">
+            Invalid username and password.
         </div>
-
-        <div>
-            <a class="nav" href="/help">Как это работает</a>
-            <a class="nav" href="/login">Вход</a>
-            <a class="nav" href="/registration">Регистрация</a>
+        <div th:if="${param.logout}" class="lab">
+            You have been logged out.
         </div>
+        <form th:action="@{/login}" method="post">
+            <div><label class="lab"> User Name : <input type="text" name="username" class="login"/> </label></div>
+            <div><label class="lab"> Password: <input type="password" name="password" class="password"/> </label></div>
+            <div><input type="submit" value="Войти" class="botton"/></div>
+        </form>
+
+        <label class="lab" for="reg">Нет аккаунта?</label>
+
+        <input type="button" class="botton"  value="Создать" id="reg" onClick='location.href="/registration"'  >
 
     </div>
-    <div th:if="${param.error}">
-        Invalid username and password.
-    </div>
-    <div th:if="${param.logout}">
-        You have been logged out.
-    </div>
-
-
-    <div class="intro">
-        <div class="info">
-            <form th:action="@{/login}" method="post">
-                <div><label> User Name : <input type="text" name="username"/> </label></div>
-                <div><label> Password: <input type="password" name="password"/> </label></div>
-                <div><input type="submit" value="Войти"/></div>
-            </form>
-
-            <label class="lab" for="reg">Нет аккаунта?</label>
-
-            <input type="button" class="botton"  value="Создать" id="reg" onClick='location.href="/registration"'  >
-
-        </div>
-    </div>
+</div>
 
 </body>
 

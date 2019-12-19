@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : njp : NaumenJavaProject-0.0.1-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/NaumenJavaProject/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/NaumenJavaProject" />
+    </properties>
+    <root id="archive" name="NaumenJavaProject-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gradle : njp : NaumenJavaProject-0.0.1-SNAPSHOT.war (exploded)" />
+    </root>
+  </artifact>
+</component>

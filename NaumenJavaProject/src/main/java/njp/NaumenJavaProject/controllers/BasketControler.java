@@ -3,7 +3,9 @@ package njp.NaumenJavaProject.controllers;
 
 import njp.NaumenJavaProject.forms.CurrentRecordForm;
 import njp.NaumenJavaProject.models.Record;
+import njp.NaumenJavaProject.models.Reminder;
 import njp.NaumenJavaProject.servises.RecordServices;
+import njp.NaumenJavaProject.servises.ReminderServises;
 import njp.NaumenJavaProject.servises.UsersServices;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -45,7 +47,11 @@ public class BasketControler {
     public String deleteRecord(@ModelAttribute CurrentRecordForm basketForm){
         RecordServices recordServices =new RecordServices();
         Record record = recordServices.findById(basketForm.getId()); //
-        recordServices.deleteRecord(record);
+        ReminderServises reminderServises = new ReminderServises();
+        Reminder reminder=reminderServises.findByRecordId(basketForm.getId());
+        if(reminder!=null)
+            reminderServises.deleteReminder(reminder);
+        else recordServices.deleteRecord(record);
         return "redirect:/basket";
     }
 
