@@ -48,7 +48,7 @@ public class UserDao {
         Query query = session.createQuery("from Record c where  (concat(substring(c.date, 1, 4), substring(c.date, 6, 2), substring(c.date, 9, 2))" +
                 " > concat(substring(:firstDate, 1, 4), substring(:firstDate, 6, 2), substring(:firstDate, 9, 2)))" +
                 "and (concat(substring(c.date, 1, 4), substring(c.date, 6, 2), substring(c.date, 9, 2)) <" +
-                " concat(substring(:secondDate, 1, 4), substring(:secondDate, 6, 2), substring(:secondDate, 9, 2)))");
+                " concat(substring(:secondDate, 1, 4), substring(:secondDate, 6, 2), substring(:secondDate, 9, 2))) and c.basket=false");
         query.setParameter("firstDate", firstDate);
         query.setParameter("secondDate", secondDate);
         return        query.list();

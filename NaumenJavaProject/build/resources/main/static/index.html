@@ -3,11 +3,143 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--
-      <link rel="stylesheet" href="../templates/assets/css/styleForTasks.css">
-      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
-   -->
+
+    <link rel="stylesheet" href="assets/css/styleForTasks.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <!--link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat&display=swap&subset=cyrillic-ext" rel="stylesheet"-->
+
     <title>Todo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+
+        .intro {
+            width: 100%;
+            height: 100vh;
+            background: url(https://lh3.googleusercontent.com/_H5JCCGwfVY1InaXM7Or9nWilqmwPYZvwJZ577kAhOt-LKdiSw88ZKZhvciDsmnRYjNN4KPvtz7vgqEirQGwWhdj4p_0-gt882g8lIxwpEbfuBGY4YOB76I_wAmDGOeMLSLSwZ27PH_dKMrOCMUIHQjL0MLGz0WnXrOe5Ze406gL5SzSfJpyUuuB_g2pYpqa5n3NdRw0WHnVxO0qr1-NqFSh96_N6qkMwUkDzrB9Zfn0zEA8HZVeMqhJO--2kk7C1YGm58acxeJUT0dzmA-i6GZdbqIDAPiLMyAO6ldGznLdpFYDABKW53LtCBCT_MPHVWV0GWY9AiTt3HdXHQgQfFqxoUR8FWUJKf1nB2Unqx2AYUDnrZToRZH3svHKO9c42RY5F4dgsMsYXR4UP71wviU3DLSKw3EIiEoEi6w34GSDQelriGd9aej_tRjYkDe8H2PMyMhWccAKzwXbrDR9ojI5NRH9zHwLWgkuuC8C6Wws0IaDtWayhMRBFHGtVTiBom8fVucyprsW_Sn1i7UOmzpjlV5eeOn8axJLdhiO8G89yqGI8SIIPFqZd4dkd2B8VNEuv6StvOJoCpZ4gesEOGaml7K43Irg8HzCAE1SwqV8AT2WaSDJRq0cswaAt5vclJVYY9NtOlJOLcTAQvHJW4VnapeNoow4eLUoNoDlMJW4v3pqewdFRz4Z0iTDcb2eeT87ASNNaXMinIPZexfbTGkkCxZQluGb_4zL2L84OZyDoL8=w424-h697-no) no-repeat fixed;
+            background-size: auto;
+            background-position: right;
+            position: fixed;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            height: 10%;
+            margin-top: 1%;
+
+        }
+
+        .nav {
+            color: black;
+            font-weight: 600;
+            font-size: 18px;
+            margin-right: 20px;
+            background-color: rgba(255, 255, 255, 0);
+            border: 20px;
+            text-decoration: none;
+        }
+
+        .nav:hover {
+            color: rgb(0, 19, 168);
+        }
+
+        .logo {
+            display: flex;
+            font-size: 40px;
+            font-weight: 700;
+            color: black;
+
+        }
+        .tasks{
+            margin-top: 6%;
+            margin-left: 22%;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+        }
+        .lab{
+            background-color: rgb(255, 255, 148);
+            padding-bottom: 1.5%;
+            padding-top: 1.5%;
+            min-width: 600px;
+            max-width: 600px;
+            display: inline-block;
+            margin-top: 0;
+            white-space: nowrap; /* Отменяем перенос текста */
+            overflow: hidden; /* Обрезаем содержимое */
+            text-overflow: ellipsis; /* Многоточие */
+        }
+        .menu{
+            width: 20%;
+            position: fixed;
+            background-color: rgba(203, 203, 203, 0.93);
+            height: 100vh;
+            margin-top: 7%;
+            padding-left: 1.5%;
+            padding-top: 1.5%;
+        }
+        .filter{
+            margin-left: 8%;
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 30%;
+        }
+        .formDate{
+            float: right;
+        }
+        .buttonForAdd{
+            width: auto;
+            font-size: 100%;
+            padding: 2%;
+            margin-bottom: 3%;
+            margin-left: 2%;
+            color: black;
+            font-weight: 500;
+            background-color: white;
+            border-color: black;
+        }
+        .buttonForDate{
+            width: auto;
+            font-size: 100%;
+            padding: 3%;
+            margin-top: 6%;
+            color: black;
+            font-weight: 500;
+            background-color: white;
+            border-color: black;
+        }
+        .buttonForDate:hover {
+            background-color:  rgba(120, 103, 173, 0.57);
+        }
+        .buttonForAdd:hover {
+            background-color:  rgba(120, 103, 173, 0.57);
+        }
+
+        .submit {
+            background-color: rgba(255, 255, 255, 0);
+            border: 20px;
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+
+        }
+        .child{
+            display: inline-block;
+        }
+
+
+
+    </style>
 </head>
 
 <body>
@@ -16,13 +148,13 @@
 <div class="header">
 
     <div class="logo">
+        <img src="https://lh3.googleusercontent.com/Cgsf9k_ptQM1ZLI5TF6JWF_SEjxrAIXNZvjbL-YSskH2W9Jz805Lvc1iZHivNNToFcpwkvnPD7jVCPv5o4pnR6HlUTcfayh4z90fXl_0lF0njB5aOaK7DUkwMG52lX1djK22u9qz6s8HdTCp_hUUqOmyJfESqcQmP2zMwb358o0J2hwE649Lx3O2-Pn5w2oOSEMRRto7ZtdCIF29_mZ-X4KG6AmCTSkc-0dOSq-2yGK-EDM1SlMbZziZ6diyFzwjjvmP3cRJKyt6r6LTpzvZ-lM8zSKgTXQBWKRPK3JRNmu_ASLyh2dpxHpAyiSTCv0g7xPPqmg1L5VkJB4yF0HBMmzPaJIL_nN81YpR-qlRxCWU3ToXHUyuRuODG3XrxFu0sdkrX8sntEPyGU9FBEK_50591XyN2AeL9pMo60Ebne0vVKYYOd_fQ_tIwPy6PbYKaLeVNDTS8-kQx6hEzyu0kdaSgVdSMg9G5zNrLNgUaBW8hmG7YbPOWbReU7QUlzkFMFKizJPG2aZxxAom8cQk9COy2H-wvyN605kdW5s-t51_U5yeeLSn1a_m3KVP4_f41hcWvPlqx4G1ETSTJezVDf2TCQhx0yTjtcD8riYETlfqbftCBUahRl3mtdbDoarlZC5au_z0Wh8XGy3A8iai9T0kFqbiD065JXKdwq1gowZxfoVcXBmZmvicrQHzwyAMSrrYf5mWQxYgNyYbCWtaF7BHbxn8LG8jrDYZ9LXpxsz1-DQ=w57-h59-no">
         ToDo List
     </div>
 
     <div>
-        <a class="nav" href="/help">Как это работает</a>
         <form th:action="@{/logout}" method="post">
-            <input type="submit" value="Выход"/>
+            <input class="nav" type="submit" value="Выход"/>
         </form>
     </div>
 
@@ -30,102 +162,45 @@
 
 
 <div class="tasks">
+    <form>
+        <input class="buttonForAdd" type="button" value="Добавить задачу" onClick='location.href="/newRecord"'>
+    </form>
 
 
 
-    <ul th:each="record : ${records}">
-        <form method="post" modelAttribute="CurrentRecordForm" lang="en" name="CurrentRecordForm" path="/">
-            <li th:text="${record.note}"></li>
+    <ul style="margin-bottom: 0" th:each="record : ${records}">
+        <form class="child" method="post" modelAttribute="CurrentRecordForm" lang="en" name="CurrentRecordForm" path="/">
+            <input type="submit" style="background-image: url(https://img.icons8.com/metro/26/000000/edit.png)" class="submit" value=""/>
+            <li class="lab" th:text="${record.note}"></li>
             <input path="id" name="id" th:attr="value=${record.id}" type="hidden">
-            <input type="submit" value="Редактировать" id="t1" style="background-image: url(../templates/assets/images/pancil.png);" />
+
         </form>
-        <form method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/toBasket">
+        <form class="child" method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/toBasket">
             <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
-            <input type="submit" class="buttonForAction" value="В корзину">
+            <input type="submit" style="background-image: url(https://img.icons8.com/metro/26/000000/trash.png)" class="submit" value=""/>
+
         </form>
-        <form method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/endTask">
+        <form class="child" method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/endTask">
             <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
-            <input type="submit" class="buttonForAction" value="Завершить">
+            <input type="submit" style="background-image: url(https://img.icons8.com/material/24/000000/task-completed.png)" class="submit" value=""/>
         </form>
 
     </ul>
-
-
-
-    <p>
-
-    <form>
-        <input type="button" value="Добавить задачу" onClick='location.href="/newRecord"'>
-    </form>
-    <!--form th:action="@{/}" method="post">
-    <div class="blocks">
-        <input type="submit" id="t1" style="background-image: url(../templates/assets/images/pancil.png);" />
-        <label for="t1" class="lab">ggggg
-        </label>
-    </div>
-    </form>>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t2" name="checkbox">
-        <label for="t2" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t3" name="checkbox">
-        <label for="t3" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t4" name="checkbox">
-        <label for="t4" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t5" name="checkbox">
-        <label for="t5" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t6" name="checkbox">
-        <label for="t6" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t7" name="checkbox">
-        <label for="t7" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t8" name="checkbox">
-        <label for="t8" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t9" name="checkbox">
-        <label for="t9" class="lab">
-        </label>
-    </div>
-    <div class="blocks">
-        <input type="image" src="../templates/assets/images/pancil.png" class="task" id="t10" name="checkbox">
-        <label for="t10" class="lab">
-        </label>
-    </div-->
 </div>
 
 <div class="menu">
-    <div class="textMenu">
-        <h1 class="h1Menu">Поиск по дате</h1>
-        <div class="filter">
-            <form method="POST" modelAttribute="SelectRecordsForm"   lang="en" name="SelectRecordsForm"  action="/selectRecord">
+    <h3>Поиск по дате</h3>
+    <div class="filter">
+        <form method="POST" modelAttribute="SelectRecordsForm"   lang="en" name="SelectRecordsForm"  action="/selectRecord">
             <label for="date1">C</label>
             <input path="firstDate" name="firstDate" type="date" class="formDate" id="date1">
             <br><br>
             <label for="date2">по</label>
             <input path="secondDate" name="secondDate" type="date" class="formDate" id="date2">
-                <input type="submit" value="Показать"  />
-            </form>>
-        </div>
-        <a class="men" href="/basket">Корзина</a>
+            <input class="buttonForDate" type="submit" value="Показать"/>
+        </form>
     </div>
+    <a class="nav" href="/basket">Корзина</a>
 </div>
 
 </body>
