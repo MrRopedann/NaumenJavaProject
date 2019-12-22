@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.persistence.NoResultException;
 import java.util.List;
 @Controller
 public class BasketControler {
@@ -48,10 +49,17 @@ public class BasketControler {
         RecordServices recordServices =new RecordServices();
         Record record = recordServices.findById(basketForm.getId()); //
         ReminderServises reminderServises = new ReminderServises();
-        Reminder reminder=reminderServises.findByRecordId(basketForm.getId());
-        if(reminder!=null)
+        //здесь была строка 54
+        try {
+            Reminder reminder=reminderServises.findByRecordId(basketForm.getId());
             reminderServises.deleteReminder(reminder);
-        else recordServices.deleteRecord(record);
+        }
+        catch(NoResultException e){
+            recordServices.deleteRecord(record);
+        }
+        //if(reminder!=null)
+        //    reminderServises.deleteReminder(reminder);
+      //  else recordServices.deleteRecord(record);
         return "redirect:/basket";
     }
 

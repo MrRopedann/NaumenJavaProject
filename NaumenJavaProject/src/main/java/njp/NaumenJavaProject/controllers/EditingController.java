@@ -44,13 +44,14 @@ public class EditingController {
         if(recordForm.isRemind()&&(recordForm.getDateReminder()!="")){
             boolean reminderOld;
 
-            Reminder reminder =new Reminder();
+            Reminder reminder;
             try{
                 reminder=reminderServises.findByRecordId(recordForm.getId());
                 reminderOld=true;
             }
             catch (NoResultException e) {
                 reminderOld =false;
+                reminder =new Reminder();
             }
             reminder.setRecord(record);
             reminder.setDateReminder(valueOf(recordForm.getDateReminder()));

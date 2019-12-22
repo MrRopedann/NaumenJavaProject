@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c3cb30-1448-4ade-b54d-cad1b8d09812" name="Default Changelist" comment="" />
+    <list default="true" id="59c3cb30-1448-4ade-b54d-cad1b8d09812" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8c21d5ca-08b4-43bc-a8e7-26e5df5f6e13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8c21d5ca-08b4-43bc-a8e7-26e5df5f6e13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +189,7 @@
       <updated>1576741739007</updated>
       <workItem from="1576741740655" duration="11874000" />
       <workItem from="1576830468741" duration="5494000" />
+      <workItem from="1576867864828" duration="81000" />
     </task>
     <servers />
   </component>

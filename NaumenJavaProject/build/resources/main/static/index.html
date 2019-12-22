@@ -84,7 +84,7 @@
             position: fixed;
             background-color: rgba(203, 203, 203, 0.93);
             height: 100vh;
-            margin-top: 7%;
+            margin-top: 6%;
             padding-left: 1.5%;
             padding-top: 1.5%;
         }
@@ -177,12 +177,12 @@
         </form>
         <form class="child" method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/toBasket">
             <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
-            <input type="submit" style="background-image: url(https://img.icons8.com/metro/26/000000/trash.png)" class="submit" value=""/>
+            <input type="submit" style="background-image: url(https://img.icons8.com/metro/26/000000/trash.png)" class="submit" value="" title="в корзину"/>
 
         </form>
         <form class="child" method="POST" modelAttribute="CurrentRecordForm"   lang="en" name="CurrentRecordForm"  action="/endTask">
             <input path="id" name="id"  type="hidden" th:attr="value=${record.id}">
-            <input type="submit" style="background-image: url(https://img.icons8.com/material/24/000000/task-completed.png)" class="submit" value=""/>
+            <input type="submit" style="background-image: url(https://img.icons8.com/material/24/000000/task-completed.png)" class="submit" value="" title="Завершено"/>
         </form>
 
     </ul>

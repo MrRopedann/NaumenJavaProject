@@ -48,7 +48,7 @@ public class ReminderDao {
         Query query = session.createQuery("FROM Reminder where recordid = :recordId");
         query.setParameter("recordId", recordId);
         //исключение обрабатывается в editingController  48-59
-        if (query.list().size() == 0) return null;
+        //if (query.list().size() == 0) return null;
         Reminder reminder= (Reminder) query.getSingleResult();
         return reminder;
     }
