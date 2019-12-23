@@ -87,9 +87,28 @@
         <task path="$PROJECT_DIR$/NaumenJavaProject">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NaumenJavaProject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NaumenJavaProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NaumenJavaProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -120,6 +139,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.NaumenJavaProject [bootRun]">
+    <configuration name="C:/Users/Пользователь/Desktop/jp/NaumenJavaProject [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="NaumenJavaProject [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -148,6 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.C:/Users/Пользователь/Desktop/jp/NaumenJavaProject [bootRun]" />
         <item itemvalue="Gradle.NaumenJavaProject [bootRun]" />
       </list>
     </recent_temporary>
@@ -190,6 +229,8 @@
       <workItem from="1576741740655" duration="11874000" />
       <workItem from="1576830468741" duration="5494000" />
       <workItem from="1576867864828" duration="81000" />
+      <workItem from="1577087570345" duration="248000" />
+      <workItem from="1577087891088" duration="1102000" />
     </task>
     <servers />
   </component>
